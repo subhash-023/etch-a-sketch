@@ -20,7 +20,7 @@ resizeBtn.addEventListener("click", () => {
     while(container.firstChild){
         container.removeChild(container.firstChild)
     }
-    inputSize = prompt("Enter a number below 100")
+    inputSize = prompt("Enter a number below 100", "64")
     if(inputSize < 100 && inputSize != null){
         generateGridSquares(inputSize)
     }
