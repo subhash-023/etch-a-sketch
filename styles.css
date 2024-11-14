@@ -1,0 +1,27 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+}
+
+.gridSquare {
+    /* height: 52px; */
+    /* min-width: 52px; */
+    box-sizing: border-box;
+    flex: 1;
+    border: 0.8px solid green;
+    /* border: 1px solid rgba(0, 0, 0, 0.599); */
+    background-color: rgb(187, 191, 187);
+}
+
+#resizeBtn {
+    padding: 10px;
+    background-color: black;
+    color: green;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 48%;
+}
